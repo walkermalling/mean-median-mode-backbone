@@ -1,5 +1,5 @@
 {
-  "name": "mean-median-mode with backbone.js",
+  "name": "mean-median-mode-backbone",
   "version": "0.0.1",
   "description": "A web app that calculates the mean, median, and mode of a given collection of numerical values",
   "main": "server.js",
@@ -11,6 +11,7 @@
   "dependencies": {
     "body-parser": "^1.6.3",
     "express": "^4.7.4",
+    "mongoose": "^3.8.14"
   },
   "devDependencies": {
     "backbone": "^1.1.2",
@@ -25,6 +26,6 @@
     "handlebars": "^2.0.0-alpha.4",
     "hbsfy": "^2.0.0",
     "jquery": "^1.8.1",
-    "mocha": "^1.21.4",
+    "mocha": "^1.21.4"
   }
 }
